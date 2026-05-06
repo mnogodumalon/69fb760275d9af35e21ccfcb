@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "laptop_katalog",
+      "app_id": "69fb75ec0e449f5ac74b7870",
+      "path": "/rest/apps/69fb75ec0e449f5ac74b7870/records",
+      "allowed_fields": [
+        "hersteller_name",
+        "preis",
+        "modellname",
+        "verfuegbarkeit",
+        "usage",
+        "betriebssystem",
+        "bildschirmgroesse",
+        "aufloesung",
+        "display_typ",
+        "touchscreen",
+        "prozessor",
+        "prozessor_hersteller",
+        "ram_gb",
+        "grafikkarte",
+        "grafikkarte_typ",
+        "speicher_gb",
+        "speicher_typ",
+        "akkulaufzeit_h",
+        "akkukapazitaet_wh",
+        "gewicht_kg",
+        "anschluesse",
+        "wlan",
+        "bluetooth",
+        "lte_5g",
+        "farbe",
+        "tastaturbeleuchtung",
+        "webcam",
+        "garantie_jahre",
+        "besonderheiten"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Laptop-Katalog — Formular"
+    },
+    {
+      "entity": "bestellungen",
+      "app_id": "69fb75f02b467025344bf46c",
+      "path": "/rest/apps/69fb75f02b467025344bf46c/records",
+      "allowed_fields": [
+        "kunde_vorname",
+        "kunde_nachname",
+        "kunde_email",
+        "kunde_telefon",
+        "adresse_strasse",
+        "adresse_hausnummer",
+        "adresse_plz",
+        "adresse_ort",
+        "menge",
+        "bestelldatum",
+        "zahlungsart",
+        "lieferadresse_abweichend",
+        "bestellstatus",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Bestellungen — Formular"
+    }
+  ]
+}
